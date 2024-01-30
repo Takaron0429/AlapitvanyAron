@@ -1,5 +1,5 @@
 body{
-    background-color: beige;
+    background-color: rgb(255, 255, 250);
     color: black;
 
 }
@@ -8,8 +8,48 @@ body{
     text-align: center;
 
 }
+
+
+#Cubes{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+li {list-style-image: none;}
+#Cubes .col {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#Cubes .col h2 {
+    display: inline-block;
+    padding: 20px; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+ #c1 {
+    background-color: #3498db;
+    color: #fff;
+}
+nav, .navbar-brand{font-size: x-large;}
+#c2 {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+#c3 {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+#c4 {
+    background-color: #f39c12;
+    color: #fff;
+}
+.p3{font-weight: bolder;}
 #BGL{
-    background:  rgba(0, 0, 0, 0.7)  url(BGlogo3.PNG);
+    background:   url(BGlogo.PNG);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     height: 100%;
@@ -25,6 +65,7 @@ body{
    overflow: hidden;
    
 }
+#BGL button{align-items: center; width: 25%; }
 #footer-logo{margin-left: 25%; margin-right: 35%; max-width: 70%; margin-bottom: 20px;}
 #logo,
 #footer-logo{
@@ -48,7 +89,8 @@ body{
 }
 
 #Cubes{
-    background-color: blue;
+   
     color: white;
    
 }
+

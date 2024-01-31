@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(255, 255, 250);
+    background-color: rgb(20, 162, 218);
     color: black;
 
 }
-
+.container{background-color: white;}
 #gomb{
     text-align: center;
 
@@ -14,6 +14,7 @@ body{
     width: 100%;
     text-align: center;
     height: 100%;
+    padding-left: 25px;
 }
 li {list-style-image: none;}
 #Cubes .col {
@@ -65,6 +66,10 @@ nav, .navbar-brand{font-size: x-large;}
    overflow: hidden;
    
 }
+#Mathiasz p{
+    font-size: 25px;
+}
+
 #BGL button{align-items: center; width: 25%; }
 #footer-logo{margin-left: 25%; margin-right: 35%; max-width: 70%; margin-bottom: 20px;}
 #logo,
@@ -93,4 +98,49 @@ nav, .navbar-brand{font-size: x-large;}
     color: white;
    
 }
+#logo,
+#footer-logo{
 
+   background-size: cover;
+   background-position: center;
+  align-items: center;
+  overflow: hidden;
+}
+footer{background-color: rgb(19, 14, 14); color: white;}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+   
+}
+#Celok i{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    display: contents;
+    color: rgb(28, 41, 214);
+    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#Celok h2,h4{font-weight: bolder; margin-top: 30px; margin-bottom: 20px;}
+#Tab {
+    color: rgb(16, 245, 16);
+    background-color: rgb(95, 84, 84);
+}

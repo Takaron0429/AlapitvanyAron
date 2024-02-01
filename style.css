@@ -1,27 +1,36 @@
-body{
-    background-color: rgb(6, 26, 139);
+body {
+    background-color: #046E8F;
     color: rgb(248, 247, 247);
 
 }
-.container{background-color: rgb(27, 29, 28);}
-#gomb{
+
+.container {
+    background-color: rgb(27, 29, 28);
+}
+
+#gomb {
     text-align: center;
 
 }
-nav a{
- font-family: American Typewriter, serif;
-}
-#Intro{
-    
+
+nav a {
+    font-family: American Typewriter, serif;
 }
 
-#Cubes{
+#Intro {}
+
+#Cubes {
     width: 100%;
     text-align: center;
     height: 100%;
     padding-left: 25px;
 }
-li {list-style-image: none;}
+
+li {
+    list-style-image: none;
+    list-style-type: none;
+}
+
 #Cubes .col {
     text-align: center;
     margin-bottom: 50px;
@@ -29,16 +38,21 @@ li {list-style-image: none;}
 
 #Cubes .col h2 {
     display: inline-block;
-    padding: 20px; 
+    padding: 20px;
     border-radius: 10px;
     text-align: center;
 }
 
- #c1 {
+#c1 {
     background-color: #3498db;
     color: #fff;
 }
-nav, .navbar-brand{font-size: x-large;}
+
+nav,
+.navbar-brand {
+    font-size: x-large;
+}
+
 #c2 {
     background-color: #e74c3c;
     color: #fff;
@@ -53,9 +67,13 @@ nav, .navbar-brand{font-size: x-large;}
     background-color: #f39c12;
     color: #fff;
 }
-.p3{font-weight: bolder;}
-#BGL{
-    background:   url(BGlogo2.PNG);
+
+.p3 {
+    font-weight: bolder;
+}
+
+#BGL {
+    background: url(BGlogo2.PNG);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     height: 100%;
@@ -66,61 +84,88 @@ nav, .navbar-brand{font-size: x-large;}
     background-position: center;
     margin: 0;
     padding: 0;
-   text-align: justify;
-   align-items: center;
-   overflow: hidden;
-   
+    text-align: justify;
+    align-items: center;
+    overflow: hidden;
+
 }
-#Mathiasz p{
+
+#Mathiasz p {
     font-size: 25px;
 }
-a{color: white;}
-hr{color: #08aa23; height: 3px;}
 
-#BGL button{align-items: center; width: 25%; }
-#footer-logo{margin-left: 25%; margin-right: 35%; max-width: 70%; margin-bottom: 20px;}
-#logo,
-#footer-logo{
-
-   background-size: cover;
-   background-position: center;
-  align-items: center;
-  overflow: hidden;
+a {
+    color: white;
 }
-.mx-auto i{ 
+
+hr {
+    color: #08aa23;
+    height: 3px;
+}
+
+#BGL button {
+    align-items: center;
+    width: 25%;
+}
+
+#footer-logo {
+    margin-left: 25%;
+    margin-right: 35%;
+    max-width: 70%;
+    margin-bottom: 20px;
+}
+
+#logo,
+#footer-logo {
+
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.mx-auto i {
     width: 40px;
     height: 40px;
-  color: white;  
-  display: inline-block;
-  color: white;
-  padding: 10px 12px;
-  font-size: 30px;
-}
-#fot a{
- color: rgb(250, 242, 242);
-}
-
-#Cubes{
-   
     color: white;
-   
+    display: inline-block;
+    color: white;
+    padding: 10px 12px;
+    font-size: 30px;
 }
-#logo,
-#footer-logo{
 
-   background-size: cover;
-   background-position: center;
-  align-items: center;
-  overflow: hidden;
+#fot a {
+    color: rgb(250, 242, 242);
 }
-footer{background-color: rgb(19, 14, 14); color: white;}
+
+#Cubes {
+
+    color: white;
+
+}
+
+#logo,
+#footer-logo {
+
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+footer {
+    background-color: rgb(19, 14, 14);
+    color: white;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
     border: 1px solid #ddd;
@@ -130,24 +175,128 @@ th {
     background-color: #f2f2f2;
 }
 
+#SS {
+    --border-radius: 15px;
+    --border-width: 4px;
+    appearance: none;
+    position: relative;
+    padding: 1em 2em;
+    border: 0;
+    background-color: #212121;
+    font-family: "Roboto", Arial, "Segoe UI", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    z-index: 2;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+#SS::after {
+
+    --m-i: linear-gradient(#000, #000);
+    --m-o: content-box, padding-box;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: var(--border-width);
+    border-radius: var(--border-radius);
+    background-image: conic-gradient(#488cfb,
+            #29dbbc,
+            #ddf505,
+            #ff9f0e,
+            #e440bb,
+            #655adc,
+            #488cfb);
+    -webkit-mask-image: var(--m-i), var(--m-i);
+    mask-image: var(--m-i), var(--m-i);
+    -webkit-mask-origin: var(--m-o);
+    mask-origin: var(--m-o);
+    -webkit-mask-clip: var(--m-o);
+    mask-composite: exclude;
+    -webkit-mask-composite: destination-out;
+    filter: hue-rotate(0);
+    animation: rotate-hue linear 500ms infinite;
+    animation-play-state: paused;
+}
+
+#SS:hover::after {
+    animation-play-state: running;
+}
+
+@keyframes rotate-hue {
+    to {
+        filter: hue-rotate(1turn);
+    }
+}
+
+#SS,
+#SS::after {
+    box-sizing: border-box;
+}
+
+#SS:active {
+    --border-width: 5px;
+}
+
 .icon {
     width: 20px;
     height: 20px;
     margin-right: 10px;
-   
+
 }
-#Celok i{
+
+#Celok i {
     background-color: white;
     width: 80px;
     height: 80px;
     display: contents;
-    color: rgb(28, 41, 214);
+    color: rgb(160, 170, 16);
     font-size: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-#Celok h2,h4{font-weight: bolder; margin-top: 30px; margin-bottom: 20px;}
+
+#Celok h2,
+h4 {
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
 #Tab {
     color: rgb(16, 245, 16);
     background-color: rgb(95, 84, 84);
 }
+.card button{
+    width: 100%;
+}
+
+.card button{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif
+}
+.card::before {
+    margin-left: auto;
+  }
+  
+  .card::after, .card::before {
+    content: '';
+    width: 0%;
+    height: 6px;
+    background: #e0040f;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .card:hover::after, .card:hover::before {
+    width: 100%;
+  }

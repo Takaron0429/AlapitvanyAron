@@ -17,7 +17,7 @@ nav a {
     font-family: American Typewriter, serif;
 }
 
-#Intro {}
+
 
 #Cubes {
     width: 100%;
@@ -190,6 +190,7 @@ th {
     z-index: 2;
     margin-left: 50%;
     margin-right: 50%;
+    margin-bottom: 20px;
 }
 
 #SS::after {
@@ -299,4 +300,21 @@ h4 {
   
   .card:hover::after, .card:hover::before {
     width: 100%;
+}
+
+#Adam img{
+   
+    min-height: 300px;
+    width: max-content;
+    transition: transform .4s;
+}
+.card{
+    transition: transform .4s;
+    margin-bottom: 2rem;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+#Adam img:hover{
+    transform: scale(1.1);
   }

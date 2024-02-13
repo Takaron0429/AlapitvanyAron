@@ -15,11 +15,18 @@ body{background-color: rgba(3, 54, 70, 0.911);}
    padding-top: 20px;
    padding-bottom: 30px;
  }
+footer{
+    width: 100%;
+}
+
 
 .gallery{
     min-height: 100vh;
     background:rgb(110, 7, 206);
     padding-bottom: 100px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .gallery .controls{
